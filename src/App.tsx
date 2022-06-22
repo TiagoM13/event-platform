@@ -3,7 +3,7 @@ import { Event } from "./pages/Event";
 export function App() {
   return (
     <div>
-        <Event />
+      <Event />
     </div>
   )
 }
