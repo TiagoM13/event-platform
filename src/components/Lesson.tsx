@@ -27,7 +27,7 @@ export function Lesson(props: LessonProps) {
         {availableDateFormated}
       </span>
 
-      <div 
+      <div
         className={
           classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500 transition-colors', {
             'bg-green-500': isActiveLesson,
