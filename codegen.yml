@@ -1,4 +1,4 @@
-schema: https://api-sa-east-1.graphcms.com/v2/cl4ohw0oz0a4301z4541m8j8q/master
+schema: https://api-sa-east-1.graphcms.com/v2/cl4ljcdt56mom01yrdswgf7n9/master
 
 documents: './src/graphql/**/*.graphql'
 
@@ -8,8 +8,8 @@ generates:
       - typescript
       - typescript-operations
       - typescript-react-apollo
-    config: 
+    config:
       reactApolloVersion: 3
       withHooks: true
       withHOC: false
-      withComponent: false 
+      withComponent: false
