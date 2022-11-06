@@ -1,7 +1,7 @@
 import { ApolloProvider } from "@apollo/client";
 import { client } from "./lib/apollo";
 import { Router } from "./Router";
-import {  BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 export function App() {
   return (
@@ -14,4 +14,3 @@ export function App() {
     </div>
   )
 }
-
